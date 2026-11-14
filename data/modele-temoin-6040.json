@@ -1,0 +1,115 @@
+{
+ "venue_mode": "paper",
+ "generated_ts": 1794682509,
+ "id": "temoin:6040",
+ "slug": "temoin-6040",
+ "name": "Témoin 60/40",
+ "kind": "temoin",
+ "description": "60 % en bitcoin, 40 % en euros, rééquilibré au début de chaque mois.",
+ "capital_ueur": 1000000000,
+ "base_ueur": 974517499,
+ "equity_ueur": 929465758,
+ "equity_live": true,
+ "base100": 95.37702082864291,
+ "n_cycles": 11,
+ "total_return": -0.04622979171357089,
+ "max_drawdown": 0.04638120305318396,
+ "sharpe": null,
+ "sharpe_ci": null,
+ "too_early": true,
+ "fees_paid_ueur": 2985074,
+ "realized_pnl_ueur": 0,
+ "n_trades": 1,
+ "api_cost_uusd": null,
+ "rank_percentile": 0.8,
+ "start_ts": 1794528000,
+ "late": false,
+ "distinguishable": {
+  "significant": false,
+  "mean_diff": 0.003419134707531655,
+  "ci_low": -0.0008185592989864936,
+  "ci_high": 0.004243033394587748
+ },
+ "cash_ueur": 400000254,
+ "halted": false,
+ "frozen_until_ts": 0,
+ "positions": [
+  {
+   "symbol": "BTC/EUR",
+   "qty": 888875,
+   "cost_ueur": 599999746,
+   "opened_ts": 1794427200,
+   "stop_ueur": null,
+   "mark_ueur": 59565800000,
+   "value_ueur": 529465504,
+   "unrealized_ueur": -70534242
+  }
+ ],
+ "n_decided": null,
+ "skipped": {},
+ "rejects": {},
+ "decisions_total": 1,
+ "decisions": [
+  {
+   "portfolio": "temoin:6040",
+   "cycle": 1794427200,
+   "ts": 1794427200,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "b1aaf2439afd6d4cf5698ec0c1f25680cddc793e2768a22444af294f11326372",
+     "symbol": "BTC/EUR",
+     "side": "buy",
+     "size_bp": 6000,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [
+      "REFERENCE"
+     ],
+     "qty": 888875,
+     "fills": [
+      {
+       "ts": 1794427200,
+       "order_id": "b1aaf2439afd6d4cf5698ec0c1f25680cddc793e2768a22444af294f11326372",
+       "symbol": "BTC/EUR",
+       "side": "buy",
+       "qty": 888875,
+       "price_ueur": 67165200000,
+       "fee_ueur": 2985074,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  }
+ ],
+ "series_ueur": [
+  974517499,
+  974517499,
+  954133817,
+  951654745,
+  957899981,
+  952001406,
+  956460003,
+  951320528,
+  938971388,
+  942113561,
+  942422000,
+  929318205
+ ]
+}

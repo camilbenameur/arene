@@ -1,0 +1,189 @@
+{
+ "venue_mode": "paper",
+ "generated_ts": 1794682509,
+ "id": "temoin:e0065",
+ "slug": "temoin-e0065",
+ "name": "Témoin E0065 (adapté)",
+ "kind": "temoin",
+ "description": "Règle fixe fondée sur la pression acheteuse (part des achats passés au prix du marché), paramètres L = 20, k = 3, H = 10.",
+ "capital_ueur": 1000000000,
+ "base_ueur": 962031738,
+ "equity_ueur": 872293787,
+ "equity_live": true,
+ "base100": 90.67203841044171,
+ "n_cycles": 11,
+ "total_return": -0.09327961589558287,
+ "max_drawdown": 0.09327961589558285,
+ "sharpe": null,
+ "sharpe_ci": null,
+ "too_early": true,
+ "fees_paid_ueur": 4965542,
+ "realized_pnl_ueur": 0,
+ "n_trades": 3,
+ "api_cost_uusd": null,
+ "rank_percentile": 0.0,
+ "start_ts": 1794528000,
+ "late": false,
+ "distinguishable": {
+  "significant": false,
+  "mean_diff": -0.0004728718342512751,
+  "ci_low": -0.0020599425711788685,
+  "ci_high": -2.275904695530679e-05
+ },
+ "cash_ueur": 1926494,
+ "halted": false,
+ "frozen_until_ts": 0,
+ "positions": [
+  {
+   "symbol": "BTC/EUR",
+   "qty": 493770,
+   "cost_ueur": 333299818,
+   "opened_ts": 1794427200,
+   "stop_ueur": null,
+   "mark_ueur": 59565800000,
+   "value_ueur": 294118050,
+   "unrealized_ueur": -39181768
+  },
+  {
+   "symbol": "ETH/EUR",
+   "qty": 17641274,
+   "cost_ueur": 332691927,
+   "opened_ts": 1794427200,
+   "stop_ueur": null,
+   "mark_ueur": 1662690000,
+   "value_ueur": 293319698,
+   "unrealized_ueur": -39372229
+  },
+  {
+   "symbol": "SOL/EUR",
+   "qty": 431426572,
+   "cost_ueur": 332081761,
+   "opened_ts": 1794427200,
+   "stop_ueur": null,
+   "mark_ueur": 65580000,
+   "value_ueur": 282929545,
+   "unrealized_ueur": -49152216
+  }
+ ],
+ "n_decided": null,
+ "skipped": {},
+ "rejects": {},
+ "decisions_total": 1,
+ "decisions": [
+  {
+   "portfolio": "temoin:e0065",
+   "cycle": 1794427200,
+   "ts": 1794427200,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "5cbc67e6249de66dcec01a6b18e1fc79132f83fea1eac0c388251a957f3876c8",
+     "symbol": "BTC/EUR",
+     "side": "buy",
+     "size_bp": 3333,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [
+      "REFERENCE"
+     ],
+     "qty": 493770,
+     "fills": [
+      {
+       "ts": 1794427200,
+       "order_id": "5cbc67e6249de66dcec01a6b18e1fc79132f83fea1eac0c388251a957f3876c8",
+       "symbol": "BTC/EUR",
+       "side": "buy",
+       "qty": 493770,
+       "price_ueur": 67165200000,
+       "fee_ueur": 1658209,
+       "reason": "intent"
+      }
+     ]
+    },
+    {
+     "intent_id": "26c0fb2d800109c41a2460fc23af67f212a4a89a6427c92f52a255c30b6c6db0",
+     "symbol": "ETH/EUR",
+     "side": "buy",
+     "size_bp": 3333,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [
+      "REFERENCE"
+     ],
+     "qty": 17641274,
+     "fills": [
+      {
+       "ts": 1794427200,
+       "order_id": "26c0fb2d800109c41a2460fc23af67f212a4a89a6427c92f52a255c30b6c6db0",
+       "symbol": "ETH/EUR",
+       "side": "buy",
+       "qty": 17641274,
+       "price_ueur": 1876490000,
+       "fee_ueur": 1655184,
+       "reason": "intent"
+      }
+     ]
+    },
+    {
+     "intent_id": "040861f73abe55c288d375d10e6ce11fbb8189f875536e86263ea7169d4cb8c9",
+     "symbol": "SOL/EUR",
+     "side": "buy",
+     "size_bp": 3333,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [
+      "REFERENCE"
+     ],
+     "qty": 431426572,
+     "fills": [
+      {
+       "ts": 1794427200,
+       "order_id": "040861f73abe55c288d375d10e6ce11fbb8189f875536e86263ea7169d4cb8c9",
+       "symbol": "SOL/EUR",
+       "side": "buy",
+       "qty": 431426572,
+       "price_ueur": 76590000,
+       "fee_ueur": 1652149,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  }
+ ],
+ "series_ueur": [
+  962031738,
+  962031738,
+  926317795,
+  928689945,
+  940179833,
+  927971893,
+  937783038,
+  923771395,
+  898309545,
+  901565271,
+  906298915,
+  877667026
+ ]
+}

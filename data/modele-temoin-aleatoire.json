@@ -1,0 +1,876 @@
+{
+ "venue_mode": "paper",
+ "generated_ts": 1794682509,
+ "id": "temoin:aleatoire",
+ "slug": "temoin-aleatoire",
+ "name": "Témoin aléatoire",
+ "kind": "temoin",
+ "description": "Tire 0 à 2 actions au hasard par cycle, avec exactement les mêmes règles de risque que les modèles.",
+ "capital_ueur": 1000000000,
+ "base_ueur": 990287548,
+ "equity_ueur": 971509720,
+ "equity_live": true,
+ "base100": 98.10380045291653,
+ "n_cycles": 11,
+ "total_return": -0.01896199547083466,
+ "max_drawdown": 0.0189619954708347,
+ "sharpe": null,
+ "sharpe_ci": null,
+ "too_early": true,
+ "fees_paid_ueur": 4404064,
+ "realized_pnl_ueur": -22541650,
+ "n_trades": 13,
+ "api_cost_uusd": null,
+ "rank_percentile": 62.7,
+ "start_ts": 1794528000,
+ "late": false,
+ "distinguishable": {
+  "significant": false,
+  "mean_diff": 0.006082472005945986,
+  "ci_low": 0.0006966590117233732,
+  "ci_high": 0.006082472005945986
+ },
+ "cash_ueur": 891036447,
+ "halted": false,
+ "frozen_until_ts": 0,
+ "positions": [
+  {
+   "symbol": "LINK/EUR",
+   "qty": 973894278,
+   "cost_ueur": 86421903,
+   "opened_ts": 1794542400,
+   "stop_ueur": 8096830,
+   "mark_ueur": 8263040,
+   "value_ueur": 80473273,
+   "unrealized_ueur": -5948630
+  }
+ ],
+ "n_decided": null,
+ "skipped": {},
+ "rejects": {
+  "DAILY_TRADES": 11,
+  "TOO_SOON": 1,
+  "SPREAD_ANOMALY": 2
+ },
+ "decisions_total": 18,
+ "decisions": [
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794672900,
+   "ts": 1794672900,
+   "kind": "stop_veille",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [],
+   "sorties": [
+    {
+     "ts": 1794672900,
+     "order_id": "stop:temoin:aleatoire:LTC/EUR:veille:1794672900",
+     "symbol": "LTC/EUR",
+     "side": "sell",
+     "qty": 61844131,
+     "price_ueur": 41380000,
+     "fee_ueur": 127956,
+     "reason": "stop"
+    }
+   ],
+   "ronde": "veille",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794672000,
+   "ts": 1794672000,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "8143fd530382d9d5797477985f9a9f2ef3475db875b2c2d2543fd84f5675b747",
+     "symbol": "BTC/EUR",
+     "side": "buy",
+     "size_bp": 438,
+     "stop_bp": 218,
+     "expected_move_bp": 805,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES",
+      "SPREAD_ANOMALY"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794657600,
+   "ts": 1794657600,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "312c4d8c0d751ea8f3bf42f75bd3bf14772ebb661d9b3a317db08d0ec1c3047c",
+     "symbol": "LINK/EUR",
+     "side": "sell",
+     "size_bp": 4440,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 777714135,
+     "fills": [
+      {
+       "ts": 1794657600,
+       "order_id": "312c4d8c0d751ea8f3bf42f75bd3bf14772ebb661d9b3a317db08d0ec1c3047c",
+       "symbol": "LINK/EUR",
+       "side": "sell",
+       "qty": 777714135,
+       "price_ueur": 8733520,
+       "fee_ueur": 339610,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794628800,
+   "ts": 1794628800,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "8266ca39546fccbae3b9d5e97eeca057a3b9ba55ca521773bb6eadf6d18410af",
+     "symbol": "XRP/EUR",
+     "side": "buy",
+     "size_bp": 1154,
+     "stop_bp": 924,
+     "expected_move_bp": 873,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794627300,
+   "ts": 1794627300,
+   "kind": "stop_veille",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [],
+   "sorties": [
+    {
+     "ts": 1794627300,
+     "order_id": "stop:temoin:aleatoire:BTC/EUR:veille:1794627300",
+     "symbol": "BTC/EUR",
+     "side": "sell",
+     "qty": 48190,
+     "price_ueur": 60521500000,
+     "fee_ueur": 145827,
+     "reason": "stop"
+    }
+   ],
+   "ronde": "veille",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794614400,
+   "ts": 1794614400,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "74f495947aedcbfea7dd4a3237c824b2e5aad851dd2e4cbd8a24a7061cd60330",
+     "symbol": "LTC/EUR",
+     "side": "buy",
+     "size_bp": 284,
+     "stop_bp": 794,
+     "expected_move_bp": 1387,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 61844131,
+     "fills": [
+      {
+       "ts": 1794614400,
+       "order_id": "74f495947aedcbfea7dd4a3237c824b2e5aad851dd2e4cbd8a24a7061cd60330",
+       "symbol": "LTC/EUR",
+       "side": "buy",
+       "qty": 61844131,
+       "price_ueur": 44950000,
+       "fee_ueur": 138995,
+       "reason": "intent"
+      }
+     ]
+    },
+    {
+     "intent_id": "8e609de1b247675f34a352292d659b302b72cbe4db733c67f03f53e5c25e70ab",
+     "symbol": "BTC/EUR",
+     "side": "sell",
+     "size_bp": 2925,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 19922,
+     "fills": [
+      {
+       "ts": 1794614400,
+       "order_id": "8e609de1b247675f34a352292d659b302b72cbe4db733c67f03f53e5c25e70ab",
+       "symbol": "BTC/EUR",
+       "side": "sell",
+       "qty": 19922,
+       "price_ueur": 61993400000,
+       "fee_ueur": 61752,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794600000,
+   "ts": 1794600000,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "c522dacedb5db97cfc2286af1ae79eaa8429e6596658aa1d806fd7ad8aa84745",
+     "symbol": "XRP/EUR",
+     "side": "buy",
+     "size_bp": 439,
+     "stop_bp": 294,
+     "expected_move_bp": 1399,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794585600,
+   "ts": 1794585600,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "26bc467acf99a123a9a6df00a245690f0ec86c86a35fb3377e846844cd29a7a9",
+     "symbol": "LINK/EUR",
+     "side": "buy",
+     "size_bp": 496,
+     "stop_bp": 616,
+     "expected_move_bp": 1196,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES",
+      "SPREAD_ANOMALY"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794556800,
+   "ts": 1794556800,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "1cd9ad14885d208c2c909f7249781a85a60a8041bc8cf32a4f62b3a9bf28f2b8",
+     "symbol": "SOL/EUR",
+     "side": "buy",
+     "size_bp": 1656,
+     "stop_bp": 859,
+     "expected_move_bp": 613,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794542400,
+   "ts": 1794542400,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "08bee1c338cdbaaf688367c3df2a4e7cbed54a9dad0e3dc94ac454732fc17a61",
+     "symbol": "LINK/EUR",
+     "side": "buy",
+     "size_bp": 1582,
+     "stop_bp": 830,
+     "expected_move_bp": 975,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 1751608413,
+     "fills": [
+      {
+       "ts": 1794542400,
+       "order_id": "08bee1c338cdbaaf688367c3df2a4e7cbed54a9dad0e3dc94ac454732fc17a61",
+       "symbol": "LINK/EUR",
+       "side": "buy",
+       "qty": 1751608413,
+       "price_ueur": 8829700,
+       "fee_ueur": 773309,
+       "reason": "intent"
+      }
+     ]
+    },
+    {
+     "intent_id": "0297e02e072cdbd3172918e9ce78a72b4ed10bb5b9f7a51e4e55874574e67e0d",
+     "symbol": "SOL/EUR",
+     "side": "buy",
+     "size_bp": 654,
+     "stop_bp": 407,
+     "expected_move_bp": 652,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794542100,
+   "ts": 1794542100,
+   "kind": "stop_veille",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [],
+   "sorties": [
+    {
+     "ts": 1794542100,
+     "order_id": "stop:temoin:aleatoire:LINK/EUR:veille:1794542100",
+     "symbol": "LINK/EUR",
+     "side": "sell",
+     "qty": 681239624,
+     "price_ueur": 8748130,
+     "fee_ueur": 297979,
+     "reason": "stop"
+    }
+   ],
+   "ronde": "veille",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794540300,
+   "ts": 1794540300,
+   "kind": "stop_veille",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [],
+   "sorties": [
+    {
+     "ts": 1794540300,
+     "order_id": "stop:temoin:aleatoire:SOL/EUR:veille:1794540300",
+     "symbol": "SOL/EUR",
+     "side": "sell",
+     "qty": 98506604,
+     "price_ueur": 71490000,
+     "fee_ueur": 352112,
+     "reason": "stop"
+    }
+   ],
+   "ronde": "veille",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794528000,
+   "ts": 1794528000,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "e504e5cf2e0e28230c4ce150d554a847165f078aed936cde7aab2bc80a4ac075",
+     "symbol": "BTC/EUR",
+     "side": "buy",
+     "size_bp": 447,
+     "stop_bp": 641,
+     "expected_move_bp": 897,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 68112,
+     "fills": [
+      {
+       "ts": 1794528000,
+       "order_id": "e504e5cf2e0e28230c4ce150d554a847165f078aed936cde7aab2bc80a4ac075",
+       "symbol": "BTC/EUR",
+       "side": "buy",
+       "qty": 68112,
+       "price_ueur": 64666700000,
+       "fee_ueur": 220229,
+       "reason": "intent"
+      }
+     ]
+    },
+    {
+     "intent_id": "9095c58d1da742eb9df2ace1306d3408523346286a30c2437153e53d85c367a2",
+     "symbol": "BTC/EUR",
+     "side": "buy",
+     "size_bp": 688,
+     "stop_bp": 528,
+     "expected_move_bp": 703,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES",
+      "TOO_SOON"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794513600,
+   "ts": 1794513600,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "358b5be3d05a3e7cacc2a66fad5feb6909da581e8a975557e42b1b5453977785",
+     "symbol": "SOL/EUR",
+     "side": "buy",
+     "size_bp": 971,
+     "stop_bp": 741,
+     "expected_move_bp": 818,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    },
+    {
+     "intent_id": "ea6483dd55e621c4886eb9293ddc5be5abaa1f48b8ff49b86c3f9c1032b0c2a7",
+     "symbol": "BTC/EUR",
+     "side": "buy",
+     "size_bp": 1804,
+     "stop_bp": 516,
+     "expected_move_bp": 709,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794499200,
+   "ts": 1794499200,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "211ab8ff264237f72523570de8f135437bf6622fba5ee16d754ae7d4c8fd5bd4",
+     "symbol": "LTC/EUR",
+     "side": "buy",
+     "size_bp": 919,
+     "stop_bp": 757,
+     "expected_move_bp": 1258,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794456000,
+   "ts": 1794456000,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "64612cdaa781898246421fe187360cc4da3da770ee0d11f75dfabc16213b27ae",
+     "symbol": "SOL/EUR",
+     "side": "sell",
+     "size_bp": 1794,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 21535564,
+     "fills": [
+      {
+       "ts": 1794456000,
+       "order_id": "64612cdaa781898246421fe187360cc4da3da770ee0d11f75dfabc16213b27ae",
+       "symbol": "SOL/EUR",
+       "side": "sell",
+       "qty": 21535564,
+       "price_ueur": 75180000,
+       "fee_ueur": 80953,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794441600,
+   "ts": 1794441600,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "34dc209101216417931dad634009b881e1de8d2ad15c00addc7309bde4fe7ff0",
+     "symbol": "LTC/EUR",
+     "side": "buy",
+     "size_bp": 880,
+     "stop_bp": 222,
+     "expected_move_bp": 928,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": false,
+     "reasons": [
+      "DAILY_TRADES"
+     ],
+     "qty": 0,
+     "fills": []
+    },
+    {
+     "intent_id": "7a7d3b47ebbde5e63657812b87c5313d3a533204cad4a0e6fddd685f50307514",
+     "symbol": "LINK/EUR",
+     "side": "sell",
+     "size_bp": 6309,
+     "stop_bp": null,
+     "expected_move_bp": null,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 1164438034,
+     "fills": [
+      {
+       "ts": 1794441600,
+       "order_id": "7a7d3b47ebbde5e63657812b87c5313d3a533204cad4a0e6fddd685f50307514",
+       "symbol": "LINK/EUR",
+       "side": "sell",
+       "qty": 1164438034,
+       "price_ueur": 9179450,
+       "fee_ueur": 534446,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  },
+  {
+   "portfolio": "temoin:aleatoire",
+   "cycle": 1794427200,
+   "ts": 1794427200,
+   "kind": "temoin",
+   "skip_reason": null,
+   "model_requested": null,
+   "model_returned": null,
+   "cost_uusd": null,
+   "input_tokens": null,
+   "output_tokens": null,
+   "parse_error": null,
+   "justification": null,
+   "actions": [
+    {
+     "intent_id": "289b669f644fdb7b523eb0e0476145a280658cd68e53c745a29904aaa2b2036b",
+     "symbol": "SOL/EUR",
+     "side": "buy",
+     "size_bp": 924,
+     "stop_bp": 640,
+     "expected_move_bp": 1224,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 120042168,
+     "fills": [
+      {
+       "ts": 1794427200,
+       "order_id": "289b669f644fdb7b523eb0e0476145a280658cd68e53c745a29904aaa2b2036b",
+       "symbol": "SOL/EUR",
+       "side": "buy",
+       "qty": 120042168,
+       "price_ueur": 76590000,
+       "fee_ueur": 459702,
+       "reason": "intent"
+      }
+     ]
+    },
+    {
+     "intent_id": "30ebe4bc751d11a419a27e434c9f172912e2b91f96cc60ab6bd56fa2bb992cca",
+     "symbol": "LINK/EUR",
+     "side": "buy",
+     "size_bp": 1752,
+     "stop_bp": 679,
+     "expected_move_bp": 1193,
+     "horizon_h": null,
+     "confidence_pct": null,
+     "approved": true,
+     "reasons": [],
+     "qty": 1845677658,
+     "fills": [
+      {
+       "ts": 1794427200,
+       "order_id": "30ebe4bc751d11a419a27e434c9f172912e2b91f96cc60ab6bd56fa2bb992cca",
+       "symbol": "LINK/EUR",
+       "side": "buy",
+       "qty": 1845677658,
+       "price_ueur": 9440370,
+       "fee_ueur": 871194,
+       "reason": "intent"
+      }
+     ]
+    }
+   ],
+   "sorties": [],
+   "ronde": "rendez_vous",
+   "declencheur": null,
+   "reveil_statut": null
+  }
+ ],
+ "series_ueur": [
+  990287548,
+  990045182,
+  981640042,
+  983550606,
+  985890245,
+  983768271,
+  986421869,
+  983485817,
+  977714596,
+  977084302,
+  977851607,
+  972818625
+ ]
+}

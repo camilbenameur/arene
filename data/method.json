@@ -1,0 +1,100 @@
+{
+ "venue_mode": "paper",
+ "generated_ts": 1794682509,
+ "journal": {
+  "verify_ok": true,
+  "n_records": 1939,
+  "head_seq": 1938,
+  "head_hash": "961f2fd363b88f9d90f4ca5ce38c4c25ccda9ce4453fd89a5243529f56ee2f8e",
+  "errors": []
+ },
+ "provenance": {
+  "policy_sha256": "11f4441108ae9cc2f7a2499e3981280e0c166f8366eb852debe2709d6a2946e9",
+  "config_sha256": "a54e71900782a6b7e439df03d3b7ea87f716db191e14e30f5630de4b021ffb42",
+  "journal_policy_sha256": "11f4441108ae9cc2f7a2499e3981280e0c166f8366eb852debe2709d6a2946e9",
+  "journal_config_sha256": "a54e71900782a6b7e439df03d3b7ea87f716db191e14e30f5630de4b021ffb42",
+  "prompt_sha256": "26820cc60c8434dbe3615e7e858079aec98c831982fe69ea18924e330cfd2cf5",
+  "prompt_hashes": [
+   "26820cc60c8434dbe3615e7e858079aec98c831982fe69ea18924e330cfd2cf5",
+   "49dca0a37d412bca2a9cfce12d2e45593224523e8101c564c097b8ea241634b0"
+  ],
+  "git_head": "46ce87c926559f44e06b711c55f589f61df9f1d7"
+ },
+ "method": {
+  "fill_model_version": "pessimiste-v1",
+  "taker_fee_bp": 50,
+  "slippage_bp": 5,
+  "capital_ueur": 1000000000,
+  "interval_s": 14400,
+  "n_trajectoires": 1000,
+  "e0065": {
+   "L": 20,
+   "k": 3,
+   "H": 10
+  },
+  "veille": {
+   "tick_s": 300,
+   "seuil_mouvement_bp": 300,
+   "fenetre_mouvement_s": 3600,
+   "max_reveils_jour": 6,
+   "cooldown_s": 3600
+  },
+  "models": [
+   {
+    "portfolio": "llm:claude-haiku-5-5",
+    "model": "claude-haiku-5-5",
+    "daily_budget_uusd": 100000,
+    "price_in_uusd_per_mtok": 100000,
+    "price_out_uusd_per_mtok": 500000
+   },
+   {
+    "portfolio": "llm:claude-sonnet-5-5",
+    "model": "claude-sonnet-5-5",
+    "daily_budget_uusd": 500000,
+    "price_in_uusd_per_mtok": 2000000,
+    "price_out_uusd_per_mtok": 10000000
+   },
+   {
+    "portfolio": "llm:claude-opus-5-5",
+    "model": "claude-opus-5-5",
+    "daily_budget_uusd": 900000,
+    "price_in_uusd_per_mtok": 4000000,
+    "price_out_uusd_per_mtok": 20000000
+   },
+   {
+    "portfolio": "llm:claude-fable-5-2",
+    "model": "claude-fable-5-2",
+    "daily_budget_uusd": 1800000,
+    "price_in_uusd_per_mtok": 8000000,
+    "price_out_uusd_per_mtok": 40000000
+   }
+  ],
+  "policy": {
+   "symbols": [
+    "BTC/EUR",
+    "ETH/EUR",
+    "SOL/EUR",
+    "XRP/EUR",
+    "LINK/EUR",
+    "LTC/EUR"
+   ],
+   "max_order_bp": 2000,
+   "max_position_bp": 4000,
+   "max_exposure_bp": 10000,
+   "max_trades_per_day": 2,
+   "max_orders_per_minute": 20,
+   "min_interval_same_symbol_s": 14400,
+   "stop_bp_min": 100,
+   "stop_bp_max": 2500,
+   "max_cost_to_expected_move_pct": 33,
+   "max_holding_s": 604800,
+   "daily_loss_freeze_bp": 500,
+   "freeze_duration_s": 86400,
+   "drawdown_halt_bp": 2000,
+   "monthly_fee_budget_bp": 100,
+   "max_quote_deviation_bp": 300,
+   "max_spread_multiple": 3,
+   "min_order_ueur": 5000000
+  }
+ }
+}
